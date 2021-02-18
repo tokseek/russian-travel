@@ -1,0 +1,3 @@
+.lead__figure {
+    margin: 0; /* Firefox и Chrome добавляют к <figure> margin 1em 40px */
+}

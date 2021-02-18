@@ -7,23 +7,65 @@
     <link rel="stylesheet" href="./pages/index.css">
     <title>Путешествие по России</title>
 </head>
-<body class="body">
-    <div class="page">
+<body class="page">
         <header class="header">
-            <img src="./blocks/header/__logo/__logo.svg" alt="Логотип Россия" class="header__logo">
+            <a class="header__home-link" a href="#" target="_self">
+                <img src="./blocks/header/__logo/__logo.svg" alt="Логотип Россия" class="header__logo">
+            </a>
             <div class="header__link">
-                <p class="header__lang-link header__lang-link_active">Ru</p>
-                <p class="header__lang-link">En</p>
+                <a class="header__lang-link header__lang-link_active" a href="#" target="_self">Ru</a>
+                <a class="header__lang-link" a href="#" target="_self">En</a>
             </div>
         </header>
 
     <main class="content">
-        <div class="lead">
+        <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <img src="./blocks/lead/__image/lead-polka.jpg" alt="Окно и спящая девушка в вагоне-плацкарте" class="lead__image">
-            <p class="lead__caption">ваша полка — верхняя</p>
-        </div>
+            <figure class="lead__figure">
+                <img src="./blocks/lead/__image/lead-polka.jpg" alt="Окно и спящая девушка в вагоне-плацкарте" class="lead__figure-image">
+                <figcaption class="lead__figure-caption">ваша полка — верхняя</figcaption>
+            </figure>
+            
+        </section>
+        <section class="intro">
+            <h2 class="intro__title">Чего мы там не видели?</h2>
+            <p class="intro__description">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+            <ul class="intro__list">
+                <li class="intro__list-item"><span class="intro__list-item_bold">Часовых поясов</span> 11</li>
+                <li class="intro__list-item"><span class="intro__list-item_bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
+                <li class="intro__list-item"><span class="intro__list-item_bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                <li class="intro__list-item"><span class="intro__list-item_bold">Природных заповедников</span> 105</li>
+                <li class="intro__list-item"><span class="intro__list-item_bold">Аэропортов</span> 241</li>
+        </section>
+        <section class="photo-grid">
+            <img src="./blocks/photo-grid/photo-grid-arisa.jpg" class="photo-grid__item" alt="Автомобиль на льду">
+            <img src="./blocks/photo-grid/photo-grid-atharva-tulsi.jpg" class="photo-grid__item" alt="Горы в облаках">
+            <img src="./blocks/photo-grid/photo-grid-baikal-2.jpg" class="photo-grid__item" alt="Озеро Байкал">
+            <img src="./blocks/photo-grid/photo-grid-baikal.jpg" class="photo-grid__item" alt="Пляж на Байкале">
+            <img src="./blocks/photo-grid/photo-grid-elbrus.jpg" class="photo-grid__item" alt="Эльбрус">
+            <img src="./blocks/photo-grid/photo-grid-ergaki.jpg" class="photo-grid__item" alt="Хребет Ергаки">
+            <img src="./blocks/photo-grid/photo-grid-kamchatka-1.jpg" class="photo-grid__item" alt="Камчатка">
+            <img src="./blocks/photo-grid/photo-grid-kamchatka-2.jpg" class="photo-grid__item" alt="Камчатские горы">
+            <img src="./blocks/photo-grid/photo-grid-kondratiev.jpg" class="photo-grid__item" alt="Знак.Пешеходный переход">
+            <img src="./blocks/photo-grid/photo-grid-sochi.jpg" class="photo-grid__item" alt="Лес с птичьего полёта">
+            <img src="./blocks/photo-grid/photo-grid-train.jpg" class="photo-grid__item" alt="Фото из окна поезда">
+            <img src="./blocks/photo-grid/photo-grid-tuman.jpg" class="photo-grid__item" alt="Собака на стоге сена. Туман">
+        </section>
+
+        <section class="cover">
+            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+            <img src="./blocks/cover/cover-trains.jpg" class="cover__image" alt="Поезда">
+        </section>
+        <section class="footer">
+            <a href="#" class="footer__link">Карты</a>
+            <a href="#" class="footer__link">Погода</a>
+            <a href="#" class="footer__link">Расписание</a>
+            <a href="#" class="footer__link">Календарь</a>
+            <a href="#" class="footer__link">Путешествия</a>
+            <a href="#" class="footer__copyright">&copy; 2021. Данила Митин</a>
+        </section>
     </main>    
     </div>
 </body>

@@ -1,6 +1,8 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin: auto 48px;
-    padding-top: 28px;
+    margin: 28px 48px 0;
+    background-color: #2A2C2F;
+    position: sticky;
+    top: 0;
 }
