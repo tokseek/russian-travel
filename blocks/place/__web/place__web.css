@@ -1,0 +1,4 @@
+.place__web {
+    grid-area: place-web;
+    align-self: end;
+}

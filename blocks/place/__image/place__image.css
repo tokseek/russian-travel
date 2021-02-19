@@ -1,0 +1,4 @@
+.place__image {
+    grid-area: place-img;
+    max-width: 100%;
+}

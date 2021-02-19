@@ -1,11 +1,11 @@
 .photo-grid {
-    max-width: 1184px;
-    margin: 0 auto;
+    max-width: calc(100% - 48*2px);
+    margin: 0 48px;
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
-
+/*
 img.photo-grid__item:nth-child(12) {
     grid-column: 3;
     grid-row: 1;
@@ -55,3 +55,4 @@ img.photo-grid__item:nth-child(1) {
     grid-column: 1;
     grid-row: 2;
 }
+*/

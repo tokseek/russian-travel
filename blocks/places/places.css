@@ -1,4 +1,6 @@
-.lead {
+.places {
     max-width: calc(100% - 148px*2);
     margin: 0 auto;
+    display: grid;
+    gap: 80px;
 }
