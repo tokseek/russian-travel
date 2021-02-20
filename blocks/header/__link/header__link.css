@@ -1,7 +1,6 @@
 .header__link {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 18px;
+    display: flex;
+    margin: 18px 0 0;
     align-items: center;
     cursor: default;
 }

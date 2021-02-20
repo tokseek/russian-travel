@@ -4,3 +4,9 @@
     font-size: 16px;
     line-height: 163%;
 }
+
+@media screen and (max-width: 320px) {
+    .intro__description {
+        max-width: 288px;
+    }
+}
