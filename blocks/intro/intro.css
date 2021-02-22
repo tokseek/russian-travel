@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .intro {
         min-width: calc(100% - 48px*2);
     }
