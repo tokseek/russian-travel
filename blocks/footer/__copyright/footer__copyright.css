@@ -3,3 +3,17 @@
     font-size: 14px;
     line-height: 114%;
 }
+
+@media screen and (max-width: 700px) {
+    .footer__copyright {
+        margin: 28px 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footer__copyright {
+        margin: 48px 0 24px;
+        font-size: 14px;
+        line-height: 100%;
+    }
+}

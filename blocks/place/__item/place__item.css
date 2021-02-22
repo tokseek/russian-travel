@@ -1,7 +1,7 @@
 .place__item {
     margin: 0 0 12px;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 100%;
     letter-spacing: 0.2em;
     color: #AAA;
 }

@@ -5,8 +5,8 @@
     line-height: 163%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 426px) {
     .intro__description {
-        max-width: 288px;
+        max-width: 100%;
     }
 }

@@ -4,3 +4,9 @@
     align-items: center;
     cursor: default;
 }
+
+@media screen and (max-width: 320px) {
+    .header__link {
+        margin-top: 14px;
+    }
+}

@@ -9,14 +9,21 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 767px) {
     .intro {
         min-width: calc(100% - 24px*2)
     }
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 425px) and (max-width: 767px) {
     .intro {
-        min-width: calc(100% - 16px*2);
+        max-width: calc(100% - 24px*2)
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .intro {
+        max-width: calc(100% - 16px*2);
     }
 }
