@@ -3,20 +3,20 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .lead {
         max-width: calc(100% - 48px*2);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .lead {
         max-width: 100%;
         margin: 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319px) {
     .lead {
         max-width: 320px;
         margin: 0;

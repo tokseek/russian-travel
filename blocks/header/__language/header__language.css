@@ -14,7 +14,7 @@
     box-shadow: inset 0px -1px 0px 0px #fff;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319px) {
     .header__language {
         font-size: 18px;
         line-height: 111%;

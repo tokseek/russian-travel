@@ -29,20 +29,20 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .cover__image-link {
         margin: 0;
         min-height: 640px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .cover__image-link {
          min-height: 480px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 319px) {
     .cover__image-link {
          min-height: 200px;
     }

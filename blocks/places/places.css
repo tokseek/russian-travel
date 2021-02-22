@@ -5,14 +5,14 @@
     gap: 80px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
     .places {
         max-width: 928px;
         margin: 0 48px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .places {
         max-width: 720px;
         margin: 0 24px;
@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319px) {
     .places {
         max-width: 320px;
         margin: 0px;
