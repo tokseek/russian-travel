@@ -1,4 +1,4 @@
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 320px) {
     .cover__content {
         max-width: calc(100% - 16px*2);
         margin: 0 16px

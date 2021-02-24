@@ -3,19 +3,19 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .intro {
         min-width: calc(100% - 48px*2);
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .intro {
         min-width: calc(100% - 24px*2)
     }
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (min-width: 425px) and (max-width: 768px) {
     .intro {
         max-width: calc(100% - 24px*2)
     }
