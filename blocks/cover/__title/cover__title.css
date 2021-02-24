@@ -7,6 +7,24 @@
     text-align: center;
 }
 
+
+@media (min-width: 426px) and (max-Width: 767px) {
+    .cover__title {
+        max-width: 100%;
+        font-size: 9.4vw;
+        line-height: 1.06em;
+    }
+}
+
+@media (min-width:321px) and (max-width: 425px) { 
+    .cover__title {
+        max-width: 255px;
+        font-size: 32px;
+        line-height: 109%;
+        margin: 0 auto 16px;
+    }
+}
+
 @media screen and (max-width: 320px) { 
     .cover__title {
         max-width: 255px;

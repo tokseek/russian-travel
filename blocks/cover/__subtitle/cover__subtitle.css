@@ -6,6 +6,14 @@
     text-align: center;
 }
 
+@media (min-width: 321px) and (max-Width: 426px) {
+    .cover__subtitle {
+        max-width: 100%;
+        font-size: 4.4vw;
+        line-height: 1.114em;
+    }
+}
+
 @media screen and (max-Width: 320px) {
     .cover__subtitle {
         max-width: 270px;

@@ -22,7 +22,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
     .lead__title {
-        font-size: 40px;
+        font-size: 12.5vw;
         line-height: 110%;
     }
 }
@@ -30,6 +30,6 @@
     .lead__title {
         margin: 0 16px;
         font-size: 40px;
-        line-height: 110%;
+    
     }
 }
