@@ -12,6 +12,6 @@
 + Flexbox
 + Grid
 
-##По ссылке ниже, можно посмотреть сайт
+## По ссылке ниже, можно посмотреть сайт
 https://tokseek.github.io/russian-travel/
 
