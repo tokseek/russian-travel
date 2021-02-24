@@ -11,13 +11,13 @@
 
 @media (max-width: 768px) {
     .intro {
-        min-width: calc(100% - 24px*2)
+        min-width: calc(100% - 24px*2);
     }
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
     .intro {
-        max-width: calc(100% - 24px*2)
+        max-width: calc(100% - 24px*2);
     }
 }
 

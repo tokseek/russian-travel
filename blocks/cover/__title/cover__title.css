@@ -8,7 +8,7 @@
 }
 
 
-@media (min-width: 426px) and (max-Width: 767px) {
+@media (min-width: 426px) and (max-width: 767px) {
     .cover__title {
         max-width: 100%;
         font-size: 9.4vw;
