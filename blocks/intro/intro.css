@@ -9,14 +9,11 @@
     }
 }
 
-
-
 @media (max-width: 768px) {
     .intro {
         max-width: calc(100% - 24px*2);
     }
 }
-
 
 @media (max-width: 576px) {
     .intro {
