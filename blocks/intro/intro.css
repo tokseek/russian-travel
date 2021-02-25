@@ -9,20 +9,16 @@
     }
 }
 
-@media (max-width: 768px) {
-    .intro {
-        min-width: calc(100% - 24px*2);
-    }
-}
 
-@media (min-width: 425px) and (max-width: 768px) {
+
+@media (max-width: 768px) {
     .intro {
         max-width: calc(100% - 24px*2);
     }
 }
 
 
-@media screen and (max-width: 425px) {
+@media (max-width: 576px) {
     .intro {
         max-width: calc(100% - 16px*2);
     }

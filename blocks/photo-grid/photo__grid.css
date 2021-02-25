@@ -20,20 +20,12 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
     .photo-grid {
         max-width: calc(100% - 16px*2);
         gap: 12px;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .photo-grid {
-        max-width: calc(100% - 16px*2);
-    }
-}
-
-
 
 /*
 img.photo-grid__item:nth-child(12) {
