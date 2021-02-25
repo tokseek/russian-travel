@@ -1,6 +1,0 @@
-@media screen and (max-width: 550px) {
-    .footer__link {
-        display: grid;
-        gap: 32px;
-    }
-}
