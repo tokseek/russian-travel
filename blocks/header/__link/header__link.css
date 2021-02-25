@@ -1,7 +1,7 @@
 .header__link {
     display: flex;
     margin: 18px 0 0;
-    align-items: center;
+    align-items: end;
     cursor: default;
 }
 
