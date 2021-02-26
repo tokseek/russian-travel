@@ -1,3 +1,7 @@
 .header__language_active {
     box-shadow: inset 0px -1px 0px 0px #fff;
 }
+
+.header__language_active:hover {
+    box-shadow: inset 0px 0px 0px 0px #fff;
+}
